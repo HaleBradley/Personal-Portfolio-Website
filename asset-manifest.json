@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a2568bc.css",
+    "main.js": "/static/js/main.0e085a2f.js",
+    "static/media/dev.jpg": "/static/media/dev.852f8a34faabc1f27927.jpg",
+    "static/media/reactlogo.png": "/static/media/reactlogo.f153eb9f28437192c6a0.png",
+    "static/media/javalogo.png": "/static/media/javalogo.cfdbf4ed872f7380a257.png",
+    "static/media/spigotlogo.png": "/static/media/spigotlogo.820e5b11314abf6f92e2.png",
+    "index.html": "/index.html",
+    "main.6a2568bc.css.map": "/static/css/main.6a2568bc.css.map",
+    "main.0e085a2f.js.map": "/static/js/main.0e085a2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2568bc.css",
+    "static/js/main.0e085a2f.js"
+  ]
+}
