@@ -1,19 +1,19 @@
 import React from "react";
-import Cards from "./components/Cards";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Projects />
+      <AboutMe />
       <Contact />
-      <Cards />
+      <Projects />
       <Footer />
     </div>
   );

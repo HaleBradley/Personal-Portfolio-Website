@@ -19,7 +19,7 @@ const Navbar = () => {
         }
     }
 
-    const goToTODO = () => {
+    const goToAboutMe = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
@@ -49,7 +49,7 @@ const Navbar = () => {
         }
     }
 
-    const goToCards = () => {
+    const goToProjects = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
@@ -69,9 +69,9 @@ const Navbar = () => {
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>hb</h1>
         <ul className='hidden md:flex'>
             <li className='p-4'><button onClick={goToHome}>Home</button></li>
-            <li className='p-4'><button onClick={goToTODO}>TODO</button></li>
+            <li className='p-4'><button onClick={goToAboutMe}>About</button></li>
             <li className='p-4'><button onClick={goToContacts}>Contacts</button></li>
-            <li className='p-4'><button onClick={goToCards}>Cards</button></li>
+            <li className='p-4'><button onClick={goToProjects}>Projects</button></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}   
@@ -80,9 +80,9 @@ const Navbar = () => {
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>hb</h1>
             <ul className='p-4'>
                 <li className='p-4 border-b border-gray-600'><button onClick={goToHome}>HOME</button></li>
-                <li className='p-4 border-b border-gray-600'><button onClick={goToTODO}>TODO</button></li>
+                <li className='p-4 border-b border-gray-600'><button onClick={goToAboutMe}>ABOUT</button></li>
                 <li className='p-4 border-b border-gray-600'><button onClick={goToContacts}>CONTACTS</button></li>
-                <li className='p-4 border-b border-gray-600'><button onClick={goToCards}>CARDS</button></li>
+                <li className='p-4 border-b border-gray-600'><button onClick={goToProjects}>PROJECTS</button></li>
             </ul>
         </div>
     </div>

@@ -25,12 +25,12 @@ const Contact = () => {
 
   return (
     <div className='w-full py-16 text-white px-4'> 
-        <div className='max-x-[1240px] mx-auto grid md:grid-cols-3'>
+        <div className='max-x-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='mx-auto my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want to contact Hale?</h1>
                 <p>For business inquiries, contact Hale through Email</p>
             </div>
-            <div className='my-4 col-span-2 mx-auto'>
+            <div className='my-4'>
                 <div className='flex flex-col sm:flex-row justify-between'>
                     <div className='grid grid-cols-3'>
                         <div className='justify-center justify-self-center mx-auto px-12'>
