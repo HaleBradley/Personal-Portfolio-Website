@@ -27,7 +27,7 @@ const Projects = () => {
             <div className='w-full shadow-xl flex flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img src={ReactLogo} alt='Java' className='w-20 mx-auto mt-[3rem] bg-white' />
                 <h2 className='text-2xl font-bold text-center py-4'>This Website!</h2>
-                <p className='text-center text-xl text-gray-500'>Create a responsive website using React and Tailwind to show my development projects and other hobbies I'm passionate about.</p>
+                <p className='text-center text-xl text-gray-500'>Created a responsive website using React and Tailwind to show my development projects and other hobbies I'm passionate about.</p>
                 <button className='bg-[#00df9a] w-[100px] rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://github.com/HaleBradley/Personal-Portfolio-Website' target='_blank'>Open</a></button>
             </div>
         </div>
