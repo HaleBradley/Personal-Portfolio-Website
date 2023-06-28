@@ -20,8 +20,8 @@ const Projects = () => {
             <div className='w-full shadow-xl flex flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img src={SpigotLogo} alt='Java' className='w-20 mx-auto mt-[3rem] bg-white' />
                 <h2 className='text-2xl font-bold text-center py-4'>Spigot Plugin</h2>
-                <p className='text-center text-xl text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quisquam illo aut quod! Quaerat alias corrupti dignissimos perspiciatis eveniet recusandae.</p>
-                <button className='bg-black text-[#00df9a] w-[100px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Open</button>
+                <p className='text-center text-xl text-gray-500'>A plugin for a Minecraft server to allow players to create custom armor stands with a simple to use GUI.</p>
+                <button className='bg-black text-[#00df9a] w-[100px] rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://github.com/HaleBradley/ArmorStandGUI' target='_blank'>Open</a></button>
             </div>
 
             <div className='w-full shadow-xl flex flex-col py-4 my-4 rounded-lg hover:scale-105 duration-300'>
