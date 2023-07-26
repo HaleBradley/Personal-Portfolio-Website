@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+//import React, { useState } from 'react'
 import { FaDiscord, FaTwitter,  } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
-import { LuCopyCheck } from 'react-icons/lu'
+//import { LuCopyCheck } from 'react-icons/lu'
 
 const Contact = () => {
 
