@@ -34,31 +34,31 @@ const Navbar = () => {
         }
     }
 
-    const goToContacts = () => {
+    const goToProjects = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
-                top: 1450,
+                top: 1600,
                 behavior: "smooth",
             });
         } else {
             window.scrollTo({
-                top: 1100,
+                top: 1400,
                 behavior: "smooth",
             });
         }
     }
 
-    const goToProjects = () => {
+    const goToContacts = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
-                top: 2000,
+                top: 3000,
                 behavior: "smooth",
             });
         } else {
             window.scrollTo({
-                top: 1630,
+                top: 2000,
                 behavior: "smooth",
             });
         }
@@ -66,12 +66,12 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>hb</h1>
+        <h1 className='w-full text-3xl font-bold text-secondary'>hb</h1>
         <ul className='hidden md:flex'>
             <li className='p-4'><button onClick={goToHome}>Home</button></li>
             <li className='p-4'><button onClick={goToAboutMe}>About</button></li>
-            <li className='p-4'><button onClick={goToContacts}>Contacts</button></li>
             <li className='p-4'><button onClick={goToProjects}>Projects</button></li>
+            <li className='p-4'><button onClick={goToContacts}>Contacts</button></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}   
@@ -81,8 +81,8 @@ const Navbar = () => {
             <ul className='p-4'>
                 <li className='p-4 border-b border-gray-600'><button onClick={goToHome}>HOME</button></li>
                 <li className='p-4 border-b border-gray-600'><button onClick={goToAboutMe}>ABOUT</button></li>
-                <li className='p-4 border-b border-gray-600'><button onClick={goToContacts}>CONTACTS</button></li>
                 <li className='p-4 border-b border-gray-600'><button onClick={goToProjects}>PROJECTS</button></li>
+                <li className='p-4 border-b border-gray-600'><button onClick={goToContacts}>CONTACTS</button></li>
             </ul>
         </div>
     </div>
