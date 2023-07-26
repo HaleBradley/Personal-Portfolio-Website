@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
+  background-color: theme('colors.main');
+  overflow-x: hidden;
+}
+
+.waves {
+  background-image: url(./assets/layered-waves-haikei.svg);
+  aspect-ratio: 960/540;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.gradient {
+  background-image: url(./assets/blurry-gradient-haikei.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  z-index: -1;
 }
