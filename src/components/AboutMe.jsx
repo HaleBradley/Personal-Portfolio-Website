@@ -3,7 +3,7 @@ import Dev from '../assets/dev.jpg'
 
 function AboutMe() {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full bg-white pt-16 px-4 aboutmewave flex justify-center items-center'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <img src={Dev} alt='Dev' className='w-[500px] mx-auto my-4'/>
             <div className='flex flex-col justify-center'>

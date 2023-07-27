@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
             <p className='md:text-2xl text-xl font-bold py-2'>Learning With Passion</p>
         </div>
-        <div className='waves'></div>
+        <div className='herowave'></div>
     </div>
   )
 }

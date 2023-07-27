@@ -24,13 +24,13 @@ const Contact = () => {
     }*/
 
   return (
-    <div className='w-full py-16 text-black px-4 bg-white'> 
-        <div className='max-x-[1240px] mx-auto grid md:grid-cols-2'>
+    <div className='w-full py-40 text-black px-4 bg-white contactwave'> 
+        <div className='max-x-[1240px] mx-auto grid md:grid-cols-2 z-10'>
             <div className='mx-auto my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want to contact Hale?</h1>
                 <p className='text-accent'>For business inquiries, contact Hale through Email</p>
             </div>
-            <div className='my-4'>
+            <div className='my-4 z-10'>
                 <div className='flex flex-col sm:flex-row justify-between'>
                     <div className='grid grid-cols-3'>
                         <div className='justify-center justify-self-center mx-auto px-12'>

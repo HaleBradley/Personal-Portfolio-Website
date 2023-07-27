@@ -7,8 +7,8 @@ body {
   overflow-x: hidden;
 }
 
-.waves {
-  background-image: url(./assets/layered-waves-haikei.svg);
+.herowave {
+  background-image: url(./assets/herowave.svg);
   aspect-ratio: 960/540;
   width: 100%;
   background-repeat: no-repeat;
@@ -19,12 +19,42 @@ body {
   z-index: -1;
 }
 
-.gradient {
-  background-image: url(./assets/blurry-gradient-haikei.svg);
+.aboutmewave {
+  background-image: url(./assets/aboutmewave.svg);
+  aspect-ratio: 960/540;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  position: relative;
+  z-index: -1;
+}
+
+/*.projectwave {
+  background-image: url(./assets/projectwave.svg);
+  aspect-ratio: 1417/864;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   bottom: 0;
   z-index: -1;
+}
+
+.contactwave {
+  background-image: url(./assets/contactwave.svg);
+  aspect-ratio: 1417/864;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  z-index: -1;
+}*/
+
+.section-wave {
+  position: absolute;
+  transform: translate(480%, -60%);
+  z-index: 1;
 }
