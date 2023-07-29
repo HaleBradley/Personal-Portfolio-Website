@@ -23,12 +23,12 @@ const Navbar = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
-                top: 820,
+                top: 780,
                 behavior: "smooth",
             });
         } else {
             window.scrollTo({
-                top: 740,
+                top: 1000,
                 behavior: "smooth",
             });
         }
@@ -38,12 +38,12 @@ const Navbar = () => {
         if(nav){
             setNav(!nav)
             window.scrollTo({
-                top: 1600,
+                top: 1400,
                 behavior: "smooth",
             });
         } else {
             window.scrollTo({
-                top: 1400,
+                top: 2000,
                 behavior: "smooth",
             });
         }
@@ -58,7 +58,7 @@ const Navbar = () => {
             });
         } else {
             window.scrollTo({
-                top: 2000,
+                top: 2900,
                 behavior: "smooth",
             });
         }

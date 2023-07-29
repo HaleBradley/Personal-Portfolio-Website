@@ -3,7 +3,7 @@ import { FaGithubSquare, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-      <div className='absolute bottom-0 w-full mx-auto py-8 px-12 grid lg:grid-cols-4 gap-8 text-gray-300 bg-black'>
+      <div className='absolute bottom-0 w-full mx-auto md:py-8 px-12 grid lg:grid-cols-4 gap-8 text-gray-300 bg-black'>
           <div>
               <h1 className='w-full text-3xl font-bold text-secondary'>hb</h1>
               <p className='py-4'>Rights are not reserved. If you want to use this website, go ahead.</p>
