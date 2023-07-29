@@ -4,15 +4,18 @@ import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
+import IntersectionObersever from "./components/IntersectionObersever";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Contact />
+      <IntersectionObersever>
+        <Navbar />
+        <Hero />
+        <AboutMe />
+        <Projects />
+        <Contact />
+      </IntersectionObersever>
     </div>
   );
 }
