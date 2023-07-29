@@ -31,30 +31,30 @@ body {
   z-index: -1;
 }
 
-/*.projectwave {
+.projectwave {
   background-image: url(./assets/projectwave.svg);
-  aspect-ratio: 1417/864;
+  aspect-ratio: 1450/800;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   bottom: 0;
-  z-index: -1;
 }
 
 .contactwave {
   background-image: url(./assets/contactwave.svg);
-  aspect-ratio: 1417/864;
+  aspect-ratio: 1450/800;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   bottom: 0;
-  z-index: -1;
-}*/
+}
 
-.section-wave {
-  position: absolute;
-  transform: translate(480%, -60%);
-  z-index: 1;
+.fade-in {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
 }
