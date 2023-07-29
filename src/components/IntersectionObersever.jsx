@@ -17,22 +17,34 @@ const IntersectionObersever = ({ children }) => {
             }
           });
         }
-        const options = {}
-        const myObserver = new IntersectionObserver(callback, options);
+        const defaultOptions = {
+          threshold: 0.2
+        }
+        const btmOptions = {
+          threshold: 0.5
+        }
+        const myObserver = new IntersectionObserver(callback, defaultOptions);
+        const btmObserver = new IntersectionObserver(callback, btmOptions)
       
         animationSection.forEach((element) => {
             if (element) {
-              myObserver.observe(element);
+              if (element.classList.contains("fade-in-btm")) {
+                btmObserver.observe(element);
+              } else {
+                myObserver.observe(element);
+              }
             }
           });
         
     
         return () => {
             animationSection.forEach((element) => {
-                if (element) {
-                  myObserver.unobserve(element);
-                }
-              });
+              if (element.classList.contains("fade-in-btm")) {
+                btmObserver.unobserve(element);
+              } else {
+                myObserver.unobserve(element);
+              }
+            });
         };
       }, []);
 
