@@ -2,6 +2,7 @@
 import { FaDiscord, FaTwitter,  } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 //import { LuCopyCheck } from 'react-icons/lu'
+import Footer from "./Footer";
 
 const Contact = () => {
 
@@ -24,7 +25,7 @@ const Contact = () => {
     }*/
 
   return (
-    <div className='w-full py-40 text-black px-4 bg-white contactwave'> 
+    <div className='w-full py-40 text-black bg-white contactwave relative'> 
         <div className='max-x-[1240px] mx-auto grid md:grid-cols-2 z-10'>
             <div className='mx-auto my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want to contact Hale?</h1>
@@ -49,6 +50,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
   )
 }
