@@ -1,5 +1,5 @@
 import React from 'react';
-import testSVG from '../assets/Untitled+(1).svg.png'; // Import the SVG file
+import testSVG from '../assets/Untitled+(1).svg.png';
 
 const SectionWave = () => {
   return (
