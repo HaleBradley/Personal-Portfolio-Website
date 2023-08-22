@@ -26,14 +26,14 @@ const Contact = () => {
     }*/
 
   return (
-    <div className='w-full py-40 text-black bg-white contactwave relative'> 
-        <div className='max-x-[1240px] mx-auto grid md:grid-cols-3 z-10'>
+    <div className='contact w-full py-40 text-black bg-white contactwave relative'> 
+        <div className='max-x-[1240px] mx-auto grid items-center md:grid-cols-3 z-10'>
             <div className='mx-auto my-4'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want to contact Hale?</h1>
                 <p className='text-accent'>For business inquiries, contact Hale through Email</p>
             </div>
             <div className='my-4 z-10 col-span-2'>
-                <div className='flex flex-col md:flex-row'>
+                <div className='flex flex-col xl:flex-row'>
                     <div className='justify-center justify-self-center mx-auto lg:px-12'>
                         <FaDiscord size={50} className='mx-auto' />
                         <button onClick={() => {navigator.clipboard.writeText('haledev')}} className='bg-accent w-[8rem] rounded-md font-medium my-6 mx-auto py-3 inline'>haledev  <AiOutlineCopy size={20} className='inline' /></button>

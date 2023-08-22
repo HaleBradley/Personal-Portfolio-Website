@@ -4,8 +4,12 @@
 
 body {
   background-color: theme('colors.main');
+}
+
+.App {
   overflow-x: hidden;
 }
+
 
 .herowave {
   background-image: url(./assets/herowave.svg);
@@ -91,4 +95,38 @@ body {
 
 .fade-in.visible {
   opacity: 1;
+}
+
+@media only screen and (max-width: 320px){
+  html {
+    font-size: 12px;
+  }
+  .contact {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+
+@media only screen and (max-width: 376px){
+  .contact {
+    padding-bottom: 14rem;
+  }
+}
+
+@media only screen and (max-width: 426px){
+  .contact {
+    padding-bottom: 14rem;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .contact {
+    padding-bottom: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1025px){
+  .contact {
+    padding-bottom: 18rem;
+  }
 }
